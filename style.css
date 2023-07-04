@@ -51,7 +51,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: monaco,Consolas,Lucida Console,monospace;
-    color: #A7FF91;
+    color: #85CC74;
     top:0;
     left:0;
     right:0;
@@ -124,7 +124,7 @@ a{
 }
 
 .section-1 a:hover{
-    color: #A7FF91;
+    color: #85CC74;
     cursor: pointer;
     transition: 0.3s;
 }
