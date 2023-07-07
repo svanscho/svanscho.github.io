@@ -153,6 +153,28 @@ a {
     z-index: 0;
 }
 
+.mars {
+    background: #000 url(mars.png);
+    z-index: 2;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    height: auto;
+    max-width: 30%;
+    width: 70px;
+}
+
+.earth {
+    background: #000 url(earth.png);
+    z-index: 2;
+    position: absolute;
+    bottom: 5%;
+    right: 15%;
+    height: auto;
+    max-width: 30%;
+    width: 140px;
+}
+
 .twinkling {
     background: transparent url(twinkling.png) repeat top center;
     z-index: 1;
@@ -161,7 +183,7 @@ a {
 
 .clouds {
     background: transparent url(clouds.png) repeat top center;
-    z-index: 2;
+    z-index: 3;
     opacity: .4;
     animation: move-clouds-back 200s linear infinite;
 }
